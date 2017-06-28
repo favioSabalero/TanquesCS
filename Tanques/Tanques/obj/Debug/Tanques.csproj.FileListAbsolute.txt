@@ -1,0 +1,6 @@
+c:\users\emdfv\documents\visual studio 2013\Projects\Tanques\Tanques\bin\Debug\Tanques.exe.config
+c:\users\emdfv\documents\visual studio 2013\Projects\Tanques\Tanques\bin\Debug\Tanques.exe
+c:\users\emdfv\documents\visual studio 2013\Projects\Tanques\Tanques\bin\Debug\Tanques.pdb
+c:\users\emdfv\documents\visual studio 2013\Projects\Tanques\Tanques\obj\Debug\Tanques.csprojResolveAssemblyReference.cache
+c:\users\emdfv\documents\visual studio 2013\Projects\Tanques\Tanques\obj\Debug\Tanques.exe
+c:\users\emdfv\documents\visual studio 2013\Projects\Tanques\Tanques\obj\Debug\Tanques.pdb

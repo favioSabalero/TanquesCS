@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Tanques.Bazooka" Collapsed="true">
+    <Position X="5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bazooka.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanques.CoheteGroso" Collapsed="true">
+    <Position X="7.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoheteGroso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanques.Misil" Collapsed="true">
+    <Position X="7.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Misil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanques.MisilTermico" Collapsed="true">
+    <Position X="9.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MisilTermico.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanques.Program" Collapsed="true">
+    <Position X="5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanques.Tanque" Collapsed="true">
+    <Position X="2" Y="2.25" Width="1.5" />
+    <AssociationLine Name="misiles" Type="Tanques.Misil" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="2.562" />
+        <Point X="7.25" Y="2.562" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAEAAQAAAAAAAAUAAAAAQAAQACAgA=</HashCode>
+      <FileName>Tanque.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="misiles" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Tanques.TanqueBlindado" Collapsed="true">
+    <Position X="3" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAQAAAAIAAA=</HashCode>
+      <FileName>TanqueBlindado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanques.TanqueComun" Collapsed="true">
+    <Position X="0.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>TanqueComun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanques.Unidad" Collapsed="true">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAACAAgAQAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Unidad.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="tanques" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
